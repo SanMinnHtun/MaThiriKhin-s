@@ -1,0 +1,17 @@
+1. Core Language: Python
+Definition: Python is a high-level, interpreted programming language known for its clear syntax and readability. In this project, it serves as the "brain" of the application, managing all backend logic, data processing, and communication with the artificial intelligence model.
+
+2. Backend API: Flask
+Definition: Flask is a "micro-framework" for Python. It acts as the bridge between your website's front interface and the database, receiving requests from users and sending back the correct data or AI analysis. It is chosen here for its simplicity and efficiency.
+
+3. Database: SQLite
+Definition: SQLite is a lightweight, file-based database engine. It does not require a separate server process, making it perfect for storing your health data (vitals and logs) locally on the device, ensuring fast access and high privacy.
+
+4. Frontend UI: React.js
+Definition: React is a popular JavaScript library used to build interactive user interfaces. It allows us to create the "components" of your app—like the symptom input form, the dashboard, and the chat window—ensuring the page updates instantly without needing to reload.
+
+5. Visualization: Chart.js
+Definition: Chart.js is a JavaScript-based tool designed specifically for rendering data visually. It transforms your raw health numbers (like Heart Rate or Blood Pressure) into professional, responsive line charts that are easy for users to interpret at a glance.
+
+6. AI Engine: Gemini 2.5 Flash
+Definition: Gemini 2.5 Flash is a highly optimized, high-performance artificial intelligence model from Google. It is designed for speed and large-scale data processing, allowing Medi Mind AI to analyze complex health symptoms and provide responses nearly instantaneously.
