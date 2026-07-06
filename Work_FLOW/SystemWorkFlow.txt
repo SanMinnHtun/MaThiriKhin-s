@@ -1,0 +1,77 @@
+Medi Mind AI – Complete System Workflow
+
+Vision: An intelligent, centralized health monitoring platform.
+
+The Backbone: A Local SQLite Database (vitals.db) serves as the single source of truth, ensuring data privacy and offline accessibility.
+
+Key Pillars:
+
+Vitals Management: Quantitative health monitoring.
+
+Symptom Intelligence: AI-driven diagnostic assistance.
+
+Conversational Concierge: Real-time, context-aware AI support.
+
+
+1.Intelligent Vitals Tracking
+
+
+The Input: Users log quantitative metrics (Heart Rate, Blood Pressure, SpO2, etc.).
+
+The Process:
+
+Data is securely saved to the local SQLite DB.
+
+The system generates automated AI Health Insights.
+
+The Outcome:
+
+Visual trend charts help users understand their health trajectory over time.
+
+Personalized health scores based on consistent tracking.
+
+
+2. AI Symptom Analyzer
+
+
+User Inputs: Body part selection, categorical tags, and severity sliders.
+
+The AI Engine:
+
+Backend POST request sends structured symptom data to our AI model.
+
+Powered by Gemini 2.5 Flash for rapid, accurate interpretation.
+
+The Value Add:
+
+Generates differential diagnosis JSON.
+
+Instantly calculates urgency levels.
+
+Provides actionable recommendations via a simplified dashboard.
+
+3. Conversational AI Chatbot
+
+
+Intelligent History: The chatbot compiles previous conversation history to ensure continuity.
+
+Process Flow:
+
+User inputs a specific query or selects a topic.
+
+Gemini 2.5 Flash (chat model) processes the request.
+
+Markdown-formatted responses are rendered for clear, readable advice.
+
+Activity Feed: Users can review recent interaction history to stay informed.
+
+4.Safety First – Emergency Protocol
+
+
+Emergency Logic: Every query passes through a safety filter before AI processing.
+
+The Override:
+
+If Medical Emergency Detected: The system triggers an immediate Emergency Alert Override.
+
+The Action: Bypasses standard chatbot flows to display critical instructions (Call 911).
