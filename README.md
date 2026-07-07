@@ -1,1 +1,1 @@
-# MaThiriKhin-s
+# MaThiriKhin-s Thesis
